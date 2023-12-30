@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: block 0;;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+/**navigation bar **/
+.nav{
+    height: 48px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.main-nav{
+    height: 48px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 950px;
+    
+    
+}
+.nav-logo{
+    height: 18px;
+    width: 100px;
+    margin-right: 5px;
+}
+.logo{
+    background-image: url("primevideologo.png");
+    height: 18px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.nav-selections{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+.selection-item{
+    color: #AAAAAA;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0px 15px;
+    font-size: 19px;
+    letter-spacing: 1.2px;
+   
+}
+.nav-search
+{
+    color: #AAAAAA;
+    align-items: center;
+    font-size: 22.5px;
+    justify-content: left;
+
+}
+.nav-search a{
+    color: white;
+}
+.nav-profile{
+    height: 40px;
+    color: #AAAAAA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-profile i{
+    color: white;
+    padding: 0.9rem;
+    font-size: 25px;
+    
+}
+
+/**PANEL-1**/
+
+
+.recher-main-photo{
+   
+    background:  linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 10) 110%),linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 10) 110%) ,url("reacherMainPhoto.jpg") ;
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+   
+    
+    
+
+}
+.main-text-area{
+    height: 650px;
+    width: 845px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin:5%  10% ;
+    position: absolute;
+
+ 
+   
+}
+.panel1-newEpisode{
+    
+    color: #FFFFFF;
+    font-weight: 800px;
+    font-size: 20px;
+    height: 24px;
+    width: 185px;
+    display: inline;
+    
+}
+.panel1-title{
+    height: 149px;
+    width: 416px;
+    margin-top: 35px;
+    
+    
+    
+}
+.main-title-pic{
+    margin-top: 20px;
+    height: 120px;
+    width: 372px;
+
+}
+.panel1-title p{
+    color: #FFFFFF;
+    letter-spacing: 6px;
+    word-spacing: 4px;
+    font-weight: 700px;
+}
+.panel1-Season{
+  margin-top: 1rem;
+}
+.season-button{
+    padding: 12px 48px 12px 16px;
+    background-color: #33373D;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+
+    
+}
+.season-button span{
+    color: white;
+    letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+.panel1-description{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 56px;
+    width: 840px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.9rem;
+}
+.panel1-ratings{
+    width: 450px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.3rem;
+
+}
+.ratings-text{
+    color: #999999;
+    font-size: 20px;
+    word-spacing: 5px;
+    font-weight: 700px;
+
+}
+.ratings-button{
+    padding:3px 7px;
+    background-color: #33373D;
+    color: white;
+    border-radius: 4px;
+    font-weight: 900px;
+}
+.panel1-categories{
+    display: flex;
+    height: 25.2px;
+    width: 200px;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+.panel1-categories a{
+    color: white;
+    font-weight: 800px;
+    font-size: 20px;
+}
+.panel1-categories span{
+    color: #AAAAAA;
+    font-size: 18px;
+    padding: 0px 0px 7.2px;
+    margin: 0px 8px;
+    font-weight: 1000px;
+    
+}
+.panel1-trail{
+    height: 30px;
+    width: 280px;
+   justify-content: space-between;
+    
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    word-spacing:1.5px;
+
+
+
+}
+.panel1-trail p{
+    height: 30px;
+    background-size: cover;
+    color: blue;
+    padding-top: 0.5rem;
+    size: 20px;
+    
+    
+}
+.panel1-trail span{
+    height: 25px;
+    color: white;
+    font-weight: 900px;
+    font-size: 18px;
+    
+}
+.panel1-controlers{
+   
+    height: 70px;
+    width: 750px;
+    margin-top: 1.3rem;
+    display: flex;
+    align-items:center ;
+    
+
+}
+.controlers-text{
+    padding: 8px 10px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: 500;
+    
+}
+.controlers-text a{
+    color: #00050D;
+    letter-spacing: 0.4px;
+}
+.controlers-icons{
+    margin-left: 25px;
+
+    height: 70px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.controlers-icons p{
+   color: #FFFFFF;
+   font-size: 28px;
+   
+   background-size: cover;
+   
+
+}
+.icons{
+    height: 62px;
+    width: 62px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #33373D;
+    border-radius: 70%;
+}
+
+
+
+
+
+/**panel2**/
+
+
+.panel-2-photo{
+    background:  linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 10) 110%),linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 10) 110%) ,url("reacher\ main2.jpeg") ;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    display: block;
+    position: relative;
+    
+
+}
+.panel-2-text{
+    color: white;
+    margin: 6rem auto auto 6rem;
+    position: absolute;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel-2-cards{
+    height: 300px;
+    width: 1400px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.card{
+    background-color:#1c2631;
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+
+}
+.card1{
+    height: 140px;
+    width: 100%;
+    border-radius: 8px;
+    background-size: cover;
+    display: block;
+    
+
+}
+.card1-image img{
+    height: 140px;
+    width: 100%;
+    border-radius: 8px;
+    background-size: cover;
+    display: block;
+}
+
+.card1-text1 p {
+color: #F2F4F6;
+font-family: Arial, Helvetica, sans-serif;
+font-size:25px;
+margin: 0px 0px 5px;
+padding: 16px;
+font-weight: 400px;
+}
+.card1-text1 span {
+    color: #F2F4F6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    padding: 16px;
+    margin: 0px 5px 5px 5px;
+    }
+
+
+
+
+/**panel3**/
+.panel-3-photo{
+    background:  linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 10) 110%),linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 10) 110%),url("panel-3image") ;
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+
+}
+.ctr-buttons{
+    position: absolute;
+    height: 53px;
+    width:310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-top: 8rem;
+}
+.ctr-buttons span{
+    padding: 14px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ctr-buttons p{
+    padding: 14px 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ctr-name{
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    padding: 0px 4px;
+    margin-top: 13rem;
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.ctr-disc{
+    display: flex;
+    align-items: center;
+    height: 170px;
+    width: 590px;
+    color: #f2f4f677;
+    justify-content:left;
+    margin-top: 18rem;
+    position: absolute;
+    margin-left: 2rem;
+   font-weight: 10px;
+
+}
+.ctr-card{
+    height: 180px;
+    width: 900px;
+    position: absolute;
+    bottom: 10rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*PANEL-4*/
+
+.panel-4-photo{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.panel-4-content h1{
+    color:#F2F4F6;
+    font-size: 36px;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.panel-4-cards{
+    height: 300px;
+    width: 1300px;
+    bottom: 4rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+
+
+}
+.panel-4-card1{
+    height: 240px;
+    width: 240px;
+    background-image: url("seaon1\ book.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.panel-4-card2{
+    height: 240px;
+    width: 240px;
+    background-image: url("season2\ book.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.panel-4-card3{
+    height: 240px;
+    width: 240px;
+    background-image: url("reachers\ rules.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.panel-4-card4{
+    height: 240px;
+    width: 240px;
+    background-image: url("more\ from\ less\ child.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.panel-4-card5{
+    height: 240px;
+    width: 240px;
+    background-image: url("imdb.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+/*PANEL-5*/
+.panel-5-photo{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.panel-5-content h1{
+    color:#F2F4F6;
+    font-size: 36px;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.panel-5-cards{
+    height: 400px;
+    width: 1300px;
+    bottom: 5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+
+
+}
+.panel-5-card1{
+    height: 355px;
+    width: 230px;
+    background-image: url("heart\ and\ armor.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.panel-5-card2{
+    height: 355px;
+    width: 230px;
+    background-image: url("veterans\ .jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.panel-5-card3{
+    height: 355px;
+    width: 230px;
+    background-image: url("women\ warriors.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.panel-5-card4{
+    height: 355px;
+    width: 230px;
+    background-image: url("vetern\ registration.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.panel-5-card5{
+    height: 355px;
+    width: 230px;
+    background-image: url("cultural\ engagement.jpeg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.footer{
+    height: 100px;
+    width: 1430px;
+    background-color: #00050D;
+    position: relative;
+    display:block;
+
+}
+.footer-logo{
+    height: 20px;
+    width:130px ;
+    position: absolute;
+    background-image: url("primevideologo.png");
+    background-size: cover;
+    margin-left:45%;
+    margin-top: 1rem;
+    
+    
+
+}
+.footer-text{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    position: absolute;
+    bottom:2rem;
+    
+}
+.footer-text a{
+    color: #79B8F3;
+    font-size: 14px;
+}
+.footer-text p{
+    color: #819784;
+    font-size: 14px;
+}
